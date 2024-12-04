@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Activity 2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      /* Reset and base styles */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Work Sans", sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 1.6;
+        background-color: #f0f3f5; /* Light gray */
+        color: #333; /* Dark gray */
+        margin: 0;
+      }
+
+      .container {
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #bbe9ff; /* Light blue */
+        /* padding: 20px; */
+      }
+
+      .header{
+  height:5%;
+  width:100%
+}
+
+      .company-logo {
+        height: 100%;
+      }
+
+      .content-container {
+        margin-top: 1rem;
+        width: 100%;
+        max-width: 1250px;
+        background-color: #ffffff; /* White */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        border-radius: 8px; /* Rounded corners */
+
+        img {
+          /* max-width: 100%; */
+          /* width: 45%; */
+          display: block;
+          margin: 1rem auto;
+          border-radius: 8px;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+      }
+
+      .lesson-title {
+        font-size: 2rem;
+        font-weight: 700;
+        color: #333; /* Dark gray */
+        margin-bottom: 1rem;
+        text-align: center;
+        text-decoration: underline; /* Underline style */
+      }
+      .button-container {
+  position: fixed; /* Fix the button to the screen */
+  top: 10%; /* Set distance from top */
+  right: 10%; /* Set distance from left */
+  z-index: 100; /* Ensure the button stays above other content */
+}
+      .button {
+        
+        display: inline-block;
+        margin-top: 20px;
+        padding: 10px 15px;
+        background-color: #4CAF50; /* Green */
+        color: white;
+        border: none;
+        border-radius: 5px;
+        text-decoration: none;
+        font-size: 1.4rem;
+        cursor: pointer;
+        text-align: center;
+      }
+
+      .probing-question {
+        margin-top: 1.5rem;
+        background-color: #f0f8ff; /* Light blue */
+        padding: 10px;
+        border-radius: 8px;
+      }
+
+      .probing-question div {
+        font-size: 1.2rem;
+        font-weight: 600;
+        color: #444; /* Dark gray */
+        margin-bottom: 5px;
+      }
+
+      .probing-question p {
+        color: #666; /* Medium gray */
+      }
+
+      h2,
+      h3,
+      h4 {
+        color: #333; /* Dark gray */
+        margin-top: 1.5rem;
+        font-weight: bold; /* Bold font for all headings */
+      }
+
+      .learn-about {
+        background-color: palegreen;
+        border-radius: 1rem;
+        text-align: left;
+        margin: 1rem;
+        padding: 1rem 0;
+        li {
+          list-style-position: inside;
+          padding-left: 1rem;
+        }
+      }
+
+      p,
+      li {
+        color: #555; /* Medium gray */
+        font-size: 1.4rem;
+      }
+
+      ol,
+      ul {
+        margin-bottom: 1.5rem;
+        padding-left: 20px;
+      }
+      .button-container {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px; /* Optional */
+    }
+
+      hr {
+        border: none; /* Remove default border */
+        height: 2px; /* Set the height of the horizontal rule */
+        background-color: palevioletred; /* Color of the rule */
+      }
+      @media (max-width: 768px) {
+        .company-logo {
+          height: 75%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header" style="background-color:white;width:100%; box-shadow:5px 5px 10px rgb(0, 0, 0);  padding-bottom:10px;">
+        <img src="assests/logo/Logo_last.png" width="5%" style="float:left; margin-top:1.5%;" class="img-responsive">
+        <span> <img src="assests/logo/header.png" width="30%" height="80%" class="img-responsive"></span>
+      </div>
+
+      <div class="content-container">
+       
+          <div class="lesson-title">Integers, Addition and Subtraction </div>
+
+        
+          <div>
+            <h2>Integers:</h2>
+            <p>
+              Integers expand the world of whole numbers to include negative numbers. They consist of negative numbers (-3, -2, -1), 0, and positive numbers (1, 2, 3, …). Integers help us describe things like temperature changes or debts.
+
+            </p>
+           
+
+            </p>
+            <h2>Addition and Subtraction of two Integers</h2>
+            <p><b>Rules for Addition : </b></p>
+            <ol>
+              <li><b>Same Signs :</b> When adding two integers with the same sign, add their absolute values and keep the common sign.
+                  <ul>
+                    <li><b>Example :</b> (+3) + (+5) = +8</li>
+                    <li><b>Example :</b> (-4) + (-6) = -10</li>
+                  </ul>
+              </li>
+              <li><b>Different Signs :</b> When adding two integers with different signs, subtract the smaller absolute value from the larger absolute value and take the sign of the integer with the larger absolute value.
+                <ul>
+                  <li><b>Example :</b> (+7) + (-3) = 4</li>
+                  <li><b>Example :</b> (-9) + (+6) = -3</li>
+                </ul>
+                <img src="./assests/explaination/1.jpg" width="30%" alt="">
+            </li>
+            </ol>
+            <p><b>Rule for Subtraction :</b> To subtract an integer add its opposite : <br>a - b = a + (-b) . Now we can use rules of addition to simply.</p><br>
+            <p><b>Note :</b> 1. The absolute value of a number is its distance from zero on the number line, no matter which direction. It is always a positive number or zero.<br><b>Example:</b></p>
+            <ul>
+              <li>The absolute value of +5  is 5 , because it is 5 steps away from zero</li>
+              <li>The absolute value of -5 is also 5 , because it is 5 steps away from zero.</li>
+            </ul>
+            <p><b>Tip : </b> Think of absolute value as “ignoring the sign” of a number to see how far it is from zero! </p>
+            <br>
+            <p>2. <b>Opposite of a number :</b> The opposite of a number is the number that is the same distance from zero on the number line but in the opposite direction.</p>
+            <ul>
+              <li>To find the opposite of a number, just change its sign:</li>
+              <li>If the number is positive, its opposite is negative.</li>
+              <li>If the number is negative, its opposite is positive.</li>
+            </ul>
+            <p><b>Example :</b> The opposite of -8 is +8.</p>
+            <br>
+            <hr>
+            <br>
+            <h1 style="text-align: center;"><u>Integers on Number Line:</u></h1>
+            <p>A number line is a straight line with numbers placed at equal intervals. It helps visualize integers and their operations.
+              <br><b>Key Points About Integers on a Number Line</b>
+              </p>
+              <ol>
+                <li>Zero is at the center.</li>
+                <li>Positive integers are to the right of zero: +1, +2, +3, ....</li>
+                <li>Negative integers are to the left of zero: -1, -2, -3, ....</li>
+                <li>As we move to the right on a number line, the numbers increase, and as we move to the left, the numbers decrease.</li>
+              </ol>
+              <img src="./assests/explaination/2.jpg" width="60%" alt="">
+              <img src="./assests/explaination/3.jpg" width="60%" alt="">
+            <h2>Addition and Subtraction on Number Line</h2>
+            <p>The number line is a visual tool that helps in understanding addition and subtraction of integers.</p>
+            <ol>
+              <li>
+                <b>Addition on the Number Line : </b>
+                <ul>
+                  <li>To add a positive integer, move to the right.</li>
+                  <li>To add a negative integer, move to the left.</li>
+                  <li><b>Example: </b>To calculate 4 + 3, start at 4 and move 3 units to the right to reach 7.</li>
+                </ul>
+              </li>
+              <li>
+                <b>Subtraction on the Number Line :</b>
+                <ul>
+                  <li>To subtract a positive integer, move to the left.                  </li>
+                  <li>To subtract a negative integer, move to the right</li>
+                  <li><b>Example:</b> To calculate  6 - 2, start at 6 and move 2 units to the left to reach 4.</li>
+                </ul>
+              </li>
+            </ol>
+            <img src="./assests/explaination/4.jpg" width="60%" alt="">
+        
+        
+      </div>
+      <div class="button-container">
+        <a href="question.html" class="button">To Practice<br>Click Next</a>
+    </div>
+    </div>
+  </body>
+</html>

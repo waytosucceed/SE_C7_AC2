@@ -1,0 +1,167 @@
+[
+  {
+      "questionNo": "Q1",
+      "question": "Which of the following integers is the greatest among the following options?",
+      "options": [
+          "-3",
+          "-1",
+          "0",
+          "-5"
+      ],
+      "correct": 2
+  },
+  {
+      "questionNo": "Q2",
+      "question": "Arrange in ascending order:<br> -7, 4, -3, 0.",
+      "options": [
+          "-7, -3, 0, 4",
+          "-7, 0, -3, 4",
+          "4, 0, -3, -7",
+          "0, -7, -3, 4"
+      ],
+      "correct": 0
+  },
+  {
+      "questionNo": "Q3",
+      "question": "What comes between -6 and -8 on a number line?",
+      "options": [
+          "-5",
+          "-7",
+          "0",
+          "9"
+      ],
+      "correct": 1
+  },
+  {
+      "questionNo": "Q4",
+      "question": "Sum of A, B and C is _, _, _ (from the following figure).<br><img width='100%' src='./assests/images/1.jpg'>",
+      "options": [
+          "6",
+          "-3",
+          "5",
+          "-5"
+      ],
+      "correct": 3
+  },
+  {
+      "questionNo": "Q5",
+      "question": "Which pair of integers are opposites?",
+      "options": [
+          "3 and -3",
+          "-5 and -4",
+          "6 and 0",
+          "-7 and -7"
+      ],
+      "correct": 0
+  },
+  {
+      "questionNo": "Q6",
+      "question": "Which is true about the sum of any integer and zero?",
+      "options": [
+          "It equals the integer.",
+          "It is always zero.",
+          "It is always positive.",
+          "It equals -1."
+      ],
+      "correct": 0
+  },
+  {
+      "questionNo": "Q7",
+      "question": "What is <br>(-6) + (-9) + (-5)?",
+      "options": [
+          "+2",
+          "-20",
+          "-3",
+          "+20"
+      ],
+      "correct": 1
+  },
+  {
+      "questionNo": "Q8",
+      "question": "Value of (+5) - (+8) is __.",
+      "options": [
+          "-3",
+          "+3",
+          "-13",
+          "+13"
+      ],
+      "correct": 0
+  },
+  {
+      "questionNo": "Q9",
+      "question": "Find: (-10) - (-4).",
+      "options": [
+          "-14",
+          "-6",
+          "+6",
+          "+14"
+      ],
+      "correct": 1
+  },
+  {
+      "questionNo": "Q10",
+      "question": "Which option gives the largest result?",
+      "options": [
+          "(-5) + (+7)",
+          "(+4) - (-3)",
+          "(+6) - (+8)",
+          "(-10) + (+5)"
+      ],
+      "correct": 1
+  },
+  {
+      "questionNo": "Q11",
+      "question": "Find the missing integer:<br> (-8)+ ? = -3.",
+      "options": [
+          "+11",
+          "-11",
+          "-5",
+          "+5"
+      ],
+      "correct": 3
+  },
+  {
+      "questionNo": "Q12",
+      "question": "Simplify: <br>(+12) - (-6) - (+8).",
+      "options": [
+          "+10",
+          "-10",
+          "+6",
+          "-6"
+      ],
+      "correct": 0
+  },
+  {
+      "questionNo": "Q13",
+      "question": "Solve :<br> (-15) + (-5) - (+10).",
+      "options": [
+          "-30",
+          "-20",
+          "-10",
+          "-5"
+      ],
+      "correct": 0
+  },
+  {
+      "questionNo": "Q14",
+      "question": "Simplify:<br> [15 - (8 + (-3)] - [(-5) - (-9)]",
+      "options": [
+          "-10",
+          "+10",
+          "-6",
+          "+6"
+      ],
+      "correct": 3
+  },
+  {
+      "questionNo": "Q15",
+      "question": "Simplify :<br> (-10) + [(20 - (-5)) - (-3) + (-8)]",
+      "options": [
+          "-5",
+          "10",
+          "5",
+          "-15"
+      ],
+      "correct": 1
+  }
+]
